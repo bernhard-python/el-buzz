@@ -28,7 +28,7 @@ components_by_slot:
         - components:
           - layout_properties: {slot: card-content-container-slot}
             name: image_2
-            properties: {}
+            properties: {height: 355, source: _/theme/Bus_vorne_links_compressed.jpg}
             type: Image
           layout_properties: {slot: card-content-slot}
           name: card_content_container_3

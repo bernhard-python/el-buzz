@@ -12,3 +12,11 @@ class Form_01_Home(Form_01_HomeTemplate):
   def navigation_link_1_click(self, **event_args):
     """This method is called when the component is clicked"""
     pass
+
+  def navigation_link_2_click(self, **event_args):
+    """This method is called when the component is clicked"""
+    pass
+
+  def navigation_link_3_click(self, **event_args):
+    """This method is called when the component is clicked"""
+    pass

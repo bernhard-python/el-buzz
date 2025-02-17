@@ -70,11 +70,14 @@ components_by_slot:
     name: navigation_link_1
     properties: {navigate_to: Form_11_Anford, text: Anforderungen}
     type: form:dep_lin1x4oec0ytd:_Components.NavigationLink
-  - layout_properties: {}
+  - event_bindings: {click: navigation_link_2_click}
+    layout_properties: {}
     name: navigation_link_2
     properties: {navigate_to: Form_12_Eval, text: Evaluation}
     type: form:dep_lin1x4oec0ytd:_Components.NavigationLink
-  - layout_properties: {}
+  - data_bindings: []
+    event_bindings: {click: navigation_link_3_click}
+    layout_properties: {}
     name: navigation_link_3
     properties: {navigate_to: Form_13_Eval_2, text: Evaluation II}
     type: form:dep_lin1x4oec0ytd:_Components.NavigationLink

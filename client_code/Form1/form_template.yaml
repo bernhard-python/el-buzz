@@ -15,9 +15,13 @@ components_by_slot:
         name: text_1
         properties: {bold: true, scale: large, style: label, text: Der ID.Buzz - unser neuer Transporter}
         type: form:dep_lin1x4oec0ytd:_Components.Text
+      - layout_properties: {grid_position: 'VCEPHT,FBUUPJ'}
+        name: navigation_link_4
+        properties: {}
+        type: form:dep_lin1x4oec0ytd:_Components.NavigationLink
       - layout_properties: {grid_position: 'IFZPGZ,GZVAEY'}
         name: text_2
-        properties: {text: 'Wir haben uns nach einigem Hin und Her entschieden, ein Auto zu kaufen, das uns sicher und bequem transportiert. Es war von Anfang an klar, dass das neue Fahrzeug einen Elektroantrieb haben sollte, auch wenn das im Jahr 2025 immer noch ein etwas abenteuerliches Unterfangen ist.'}
+        properties: {text: 'Wir haben uns nach einigem Hin und Her entschieden, ein Auto zu kaufen, das uns sicher und bequem transportiert. Es war das Ziel, dass das neue Fahrzeug einen Elektroantrieb haben sollte, auch wenn das im Jahr 2025 immer noch ein etwas abenteuerliches (und teures) Unterfangen ist.'}
         type: form:dep_lin1x4oec0ytd:_Components.Text
       layout_properties: {slot: card-content-slot}
       name: column_panel_1
@@ -51,5 +55,30 @@ components_by_slot:
     name: card_1
     properties: {}
     type: form:dep_lin1x4oec0ytd:_Components.Card
+  navigation:
+  - data_bindings:
+    - {code: 'self.item['''']', property: item, writeback: false}
+    - {code: 'self.item['''']', property: tag, writeback: false}
+    event_bindings: {click: navigation_link_1_click}
+    layout_properties: {}
+    name: navigation_link_1
+    properties: {navigate_to: null, text: Anforderungen}
+    type: form:dep_lin1x4oec0ytd:_Components.NavigationLink
+  - layout_properties: {}
+    name: navigation_link_2
+    properties: {text: Evaluation}
+    type: form:dep_lin1x4oec0ytd:_Components.NavigationLink
+  - layout_properties: {}
+    name: navigation_link_3
+    properties: {text: Entscheid}
+    type: form:dep_lin1x4oec0ytd:_Components.NavigationLink
+  - layout_properties: {}
+    name: navigation_link_5
+    properties: {text: Erfahrungen}
+    type: form:dep_lin1x4oec0ytd:_Components.NavigationLink
+  - layout_properties: {}
+    name: navigation_link_6
+    properties: {text: Technik}
+    type: form:dep_lin1x4oec0ytd:_Components.NavigationLink
 is_package: true
 layout: {type: 'form:dep_lin1x4oec0ytd:Layouts.NavigationRailLayout'}

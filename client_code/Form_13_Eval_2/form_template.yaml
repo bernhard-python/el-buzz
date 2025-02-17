@@ -15,11 +15,11 @@ components_by_slot:
         - components:
           - layout_properties: {slot: card-content-container-slot}
             name: text_1
-            properties: {bold: true, scale: large, style: label, text: Die Anforderungen}
+            properties: {bold: true, scale: large, style: label, text: Die Evaluation - 2. Anlauf}
             type: form:dep_lin1x4oec0ytd:_Components.Text
           - layout_properties: {slot: card-content-container-slot}
             name: text_2
-            properties: {text: 'Der Entscheid, ein Auto zu kaufen war das eine, etwas ganz anderes war die Frage nach dem Modell. '}
+            properties: {text: 'Die Testfahrt mit dem Multivan verlief unspektakulär. Der Diesel nagelte leise den Berg hoch und hielt im Verkehr mühelos mit. Der Van ist handlich, übersichtlich und, ganz wichtig, die Hintersitze sind mit einem Handgriff gelöst.'}
             type: form:dep_lin1x4oec0ytd:_Components.Text
           layout_properties: {slot: card-content-slot}
           name: card_content_container_5
@@ -38,14 +38,11 @@ components_by_slot:
         - components:
           - layout_properties: {slot: card-content-container-slot}
             name: image_2
-            properties:
-              horizontal_align: center
-              margin: [null, 0, null, 0]
-              source: _/theme/Brainstorming_workshop_2.png
+            properties: {alt_text: Platzhalter für Multivan Bild}
             type: Image
           - layout_properties: {slot: card-content-container-slot}
             name: text_3
-            properties: {text: 'Brainstorming Workshops haben immer den Anschein, ergebnisoffene Prozesse zu sein. '}
+            properties: {text: 'Die Auswahl an Modellen, welche die Anforderungen abdecken, war gering. Konkret gibt es Stand Januar 2025 nur ein Fahrzeug, welches die Anforderungen ohne allzu grosse Kompromisse abgedecken kann.'}
             type: form:dep_lin1x4oec0ytd:_Components.Text
           layout_properties: {slot: card-content-slot}
           name: card_content_container_3
@@ -61,18 +58,14 @@ components_by_slot:
             padding: [null, 0, null, null]
         type: form:dep_lin1x4oec0ytd:_Components.Card
       - components:
-        - components:
-          - layout_properties: {slot: card-content-container-slot}
-            name: image_3
-            properties: {source: _/theme/El_buzz_brainstorming_2.png}
-            type: Image
+        - components: []
           layout_properties: {slot: card-content-slot}
           name: card_content_container_4
           properties: {}
           type: form:dep_lin1x4oec0ytd:_Components.Card.CardContentContainer
         - layout_properties: {slot: card-content-slot}
           name: text_4
-          properties: {text: 'Auch wenn die Anforderungen letztlich konfliktarm festgelegt worden sind, hat das Ergbenis etwas von einem Wunschkatalog für den Samichlaus.'}
+          properties: {text: 'Am Schluss blieb nur noch der ID.Buzz übrig. Also auf zur Testfahrt. Aber halt, da sind ja die Sitze fest verschraubt!?! Der freundliche Herr von der Garage organisiert uns kuzerhand einen Multivan mit einem 150 PS Diesel (Originalton: "Das ist vernünftig.").'}
           type: form:dep_lin1x4oec0ytd:_Components.Text
         layout_properties: {slot: card-content-container-slot}
         name: card_3
@@ -97,7 +90,7 @@ components_by_slot:
     event_bindings: {click: navigation_link_1_click}
     layout_properties: {}
     name: navigation_link_1
-    properties: {navigate_to: null, text: Anforderungen}
+    properties: {navigate_to: Form_11_Anford, text: Anforderungen}
     type: form:dep_lin1x4oec0ytd:_Components.NavigationLink
   - layout_properties: {}
     name: navigation_link_2
@@ -105,7 +98,7 @@ components_by_slot:
     type: form:dep_lin1x4oec0ytd:_Components.NavigationLink
   - layout_properties: {}
     name: navigation_link_3
-    properties: {navigate_to: Form_13_Eval_2, text: Evaluation II}
+    properties: {navigate_to: null, text: Evaluation II}
     type: form:dep_lin1x4oec0ytd:_Components.NavigationLink
   - layout_properties: {}
     name: navigation_link_5

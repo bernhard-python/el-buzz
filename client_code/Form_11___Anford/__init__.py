@@ -1,8 +1,8 @@
-from ._anvil_designer import Form_11_AnfordTemplate
+from ._anvil_designer import Form_11___AnfordTemplate
 from anvil import *
 
 
-class Form_11_Anford(Form_11_AnfordTemplate):
+class Form_11___Anford(Form_11___AnfordTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)

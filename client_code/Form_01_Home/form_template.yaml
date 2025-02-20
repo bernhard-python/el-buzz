@@ -62,6 +62,10 @@ components_by_slot:
     properties: {}
     type: form:dep_lin1x4oec0ytd:_Components.Card
   navigation:
+  - layout_properties: {}
+    name: navigation_link_7
+    properties: {text: Home}
+    type: form:dep_lin1x4oec0ytd:_Components.NavigationLink
   - data_bindings:
     - {code: 'self.item['''']', property: item, writeback: false}
     - {code: 'self.item['''']', property: tag, writeback: false}
@@ -95,3 +99,4 @@ components_by_slot:
     type: form:dep_lin1x4oec0ytd:_Components.NavigationLink
 is_package: true
 layout: {type: 'form:dep_lin1x4oec0ytd:Layouts.NavigationRailLayout'}
+slots: {}
